@@ -7,7 +7,7 @@ public class PositionType {
     private int id;
     private static int nextId = 1;
     private String value;
-//Constructor
+//Constructor-has no return type
     public PositionType() {
         id = nextId;
         nextId++;
